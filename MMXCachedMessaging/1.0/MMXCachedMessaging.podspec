@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "MMXCachedMessaging/MMXMessageCache.{h,m}","MMXCachedMessaging/MMXMessageManager.{h,m}"
   spec.public_header_files = "MMXCachedMessaging/MMXMessageCache.h","MMXCachedMessaging/MMXMessageManager.h"
-  s.xcconfig       =  { 'OTHER_LDFLAGS' => '-ObjC -all_load', 'ENABLE_BITCODE'=>'NO', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  spec.xcconfig       =  { 'OTHER_LDFLAGS' => '-ObjC -all_load', 'ENABLE_BITCODE'=>'NO', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
   spec.platform = :ios
   spec.ios.deployment_target = '8.0'
