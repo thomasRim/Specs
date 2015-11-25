@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MMXCachedMessaging'
-  spec.version      = '1.0'
+  spec.version      = '1.1'
   spec.license      =  'BSD'
   spec.summary      = 'An Objective-C client for cacheing MMX channels and messages'
   spec.homepage     = 'https://bitbucket.org/thomasrim/mmxcachedmessaging'
