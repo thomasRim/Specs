@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MMXCachedMessaging'
   spec.version      = '1.4'
-  spec.license      =  'BSD'
+  spec.license      =  'MIT'
   spec.summary      = 'An Objective-C client for cacheing MMX channels and messages'
-  spec.homepage     = 'https://bitbucket.org/thomasrim/mmxcachedmessaging'
+  spec.homepage     = 'https://github.com/thomasRim/MMXCachedMessaging'
   spec.author       = 'Vladimir Yevdokimov'
-  spec.source       = { :git => 'https://bitbucket.org/thomasrim/mmxcachedmessaging.git', :tag=>'1.4' }
+  spec.source       = { :git => 'https://github.com/thomasRim/MMXCachedMessaging.git', :tag=>'1.4' }
 
   spec.source_files  = "MMXCachedMessaging/MMXMessageCache.{h,m}","MMXCachedMessaging/MMXMessageManager.{h,m}"
   spec.public_header_files = "MMXCachedMessaging/MMXMessageCache.h","MMXCachedMessaging/MMXMessageManager.h"
