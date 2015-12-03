@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.requires_arc = true
 
-  spec.dependency "MagnetMax", "~> 2.0"
+  spec.dependency "MagnetMax", "~> 2.1"
 end
