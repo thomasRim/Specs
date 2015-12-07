@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MMXCachedMessaging'
-  spec.version      = '1.1'
-  spec.license      =  'BSD'
+  spec.version      = '2.3'
+  spec.license      =  'MIT'
   spec.summary      = 'An Objective-C client for cacheing MMX channels and messages'
-  spec.homepage     = 'https://bitbucket.org/thomasrim/mmxcachedmessaging'
+  spec.homepage     = 'https://github.com/thomasRim/MMXCachedMessaging'
   spec.author       = 'Vladimir Yevdokimov'
-  spec.source       = { :git => 'https://bitbucket.org/thomasrim/mmxcachedmessaging.git', :tag=>'1.1' }
+  spec.source       = { :git => 'https://github.com/thomasRim/MMXCachedMessaging.git', :tag=>'2.3' }
 
   spec.source_files  = "MMXCachedMessaging/MMXMessageCache.{h,m}","MMXCachedMessaging/MMXMessageManager.{h,m}"
   spec.public_header_files = "MMXCachedMessaging/MMXMessageCache.h","MMXCachedMessaging/MMXMessageManager.h"
@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.requires_arc = true
 
-  spec.dependency "MagnetMax", "~> 2.0"
+  spec.dependency "MagnetMax", "~> 2.1"
 end
