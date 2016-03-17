@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author       = 'Vladimir Yevdokimov'
   spec.source       = { :git => 'https://github.com/magnetsystems/message-samples-ios.git', :branch=>'develop' }
 
-  spec.source_files  = "/Messengerv2/ios/ChatKit/UI/*.*"
+  spec.source_files  = "Messengerv2/ios/ChatKit/UI/*.*"
   #spec.public_header_files = "MMXCachedMessaging/MMXMessageCache.h","MMXCachedMessaging/MMXMessageManager.h"
   spec.xcconfig       =  { 'OTHER_LDFLAGS' => '-ObjC -all_load', 'ENABLE_BITCODE'=>'NO', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
