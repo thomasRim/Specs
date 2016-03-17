@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'ChatKit'
+  spec.name         = 'YVChatKit'
   spec.version      = '1.0.0'
   spec.license      =  'MIT'
   spec.summary      = 'An Objective-C client for MMX channels and messages'
