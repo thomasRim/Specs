@@ -8,7 +8,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/magnetsystems/message-samples-ios.git', :branch => 'develop' }
 
   spec.source_files  = "Messengerv2/ios/ChatKit/UI/**/*.{h,m}"
-  spec.resources = {"Messengerv2/ios/ChatKit/UI/CHKAssets.bundle", "Messengerv2/ios/ChatKit/UI/**/*.{xib}"}
+  spec.resources = "Messengerv2/ios/ChatKit/UI/CHKAssets.bundle"
+  spec.resources = "Messengerv2/ios/ChatKit/UI/**/*.{xib}"
   spec.xcconfig       =  { 'OTHER_LDFLAGS' => '-ObjC -all_load', 'ENABLE_BITCODE'=>'NO', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
   spec.platform = :ios
