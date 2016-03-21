@@ -1,0 +1,28 @@
+{
+  "name": "YVChatKit",
+  "version": "1.0.3",
+  "summary": "An Objective-C client for MMX channels and messages",
+  "homepage": "https://github.com/thomasRim",
+  "license": "MIT",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "authors": {
+    "Vladimir Yevdokimov": "thomas_r@ua.fm"
+  },
+  "source": {
+    "git": "https://github.com/thomasRim/ChatKitTest",
+    "tag": "1.0.3"
+  },
+  "classes": "Messengerv2/ios/ChatKit/UI/**/*.{h,m}",
+  "resources": [
+    "Messengerv2/ios/ChatKit/UI/CHKAssets.bundle",
+    "Messengerv2/ios/ChatKit/UI/**/*.{xib}"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "MagnetMax": [
+      "~> 2.5.1"
+    ]
+  }
+}
