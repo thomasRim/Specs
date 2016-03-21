@@ -1,6 +1,6 @@
 {
   "name": "YVChatKit_test",
-  "version": "1.0",
+  "version": "1.0.4",
   "summary": "An Objective-C client for MMX channels and messages",
   "homepage": "https://github.com/thomasRim",
   "license": "MIT",
