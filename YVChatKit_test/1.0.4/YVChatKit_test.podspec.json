@@ -14,7 +14,6 @@
     "git": "https://github.com/thomasRim/ChatKitTest",
     "tag": "1.0.4"
   },
-  "source_files": "ChatKit/UI/*.{h,m}",
   "resources": [
     "ChatKit/UI/CHKAssets.bundle",
     "ChatKit/UI/**/*.{xib}"
@@ -32,8 +31,14 @@
   },
   "subspecs":[
    {
+    "name" : "Utils",
+    "source_files" : "ChatKit/UI/Utils/*.{h,m}"
+   },
+   {
     "name" : "Controllers",
     "source_files" : "ChatKit/UI/Controllers/*.{h,m}"
+    "dependencies" : {
+     "YVChatKit_test/Utils" : []
    },
    {
     "name" : "Prototypes",
