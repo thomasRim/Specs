@@ -1,5 +1,5 @@
 {
-  "name": "YVChatKit",
+  "name": "YVChatKit_test",
   "version": "1.0.3",
   "summary": "An Objective-C client for MMX channels and messages",
   "homepage": "https://github.com/thomasRim",
@@ -30,7 +30,7 @@
     "name" : "Controllers",
     "source_files" : "ChatKit/UI/Controllers/*.{h,m}",
     "dependencies": {
-      "YVChatKit": [
+      "YVChatKit_test": [
 
       ]
     }
@@ -39,7 +39,7 @@
     "name" : "Prototypes",
     "source_files" : "ChatKit/UI/Prototypes/*.{h,m}",
     "dependencies": {
-      "YVChatKit": [
+      "YVChatKit_test": [
 
       ]
     }
