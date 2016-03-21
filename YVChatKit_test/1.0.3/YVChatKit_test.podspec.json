@@ -28,11 +28,11 @@
   "subspecs":[
    {
     "name" : "Controllers",
-    "source_files" : "ChatKit/UI/Controllers/*.{h,m}",
+    "source_files" : "ChatKit/UI/Controllers/*.{h,m}"
    },
    {
     "name" : "Prototypes",
-    "source_files" : "ChatKit/UI/Prototypes/*.{h,m}",
+    "source_files" : "ChatKit/UI/Prototypes/*.{h,m}"
    }
   ]
 }
