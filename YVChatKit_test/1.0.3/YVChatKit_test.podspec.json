@@ -25,28 +25,24 @@
       "~> 2.5.1"
     ]
   },
-  "default_subspecs": [
-    "Controllers",
-    "Prototypes"
-  ],
   "subspecs":[
    {
     "name" : "Controllers",
     "source_files" : "ChatKit/UI/Controllers/*.{h,m}",
     "dependencies": {
-        "YVChatKit": [
+      "YVChatKit": [
 
-        ]
-      }
+      ]
+    }
    },
    {
     "name" : "Prototypes",
     "source_files" : "ChatKit/UI/Prototypes/*.{h,m}",
     "dependencies": {
-        "YVChatKit": [
+      "YVChatKit": [
 
-        ]
-      }
+      ]
+    }
    }
   ]
 }
