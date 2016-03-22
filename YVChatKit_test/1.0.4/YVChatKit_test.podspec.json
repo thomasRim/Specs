@@ -38,7 +38,9 @@
     "name" : "Controllers",
     "source_files" : "ChatKit/UI/Controllers/*.{h,m}"
     "dependencies" : {
-     "YVChatKit_test/Utils" : []
+     "YVChatKit_test/Utils" : [
+
+     ]
    },
    {
     "name" : "Prototypes",
