@@ -1,0 +1,25 @@
+{
+  "name": "YVUtils-ObjC",
+  "version": "1.0.0",
+  "summary": "An Objective-C different Utils",
+  "homepage": "https://github.com/thomasRim",
+  "license": "MIT",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "authors": {
+    "Vladimir Yevdokimov": "thomas_r@ua.fm"
+  },
+  "source": {
+    "git": "https://github.com/thomasRim/Utils"
+  },
+  "resources": [
+    "Utils/ObjC/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "OTHER_LDFLAGS" : "-ObjC -all_load",
+    "ENABLE_BITCODE" : "NO",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" : "YES"
+  }
+}
