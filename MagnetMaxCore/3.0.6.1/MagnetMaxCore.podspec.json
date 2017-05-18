@@ -10,18 +10,18 @@
     "Magnet Systems, Inc.": "info@magnet.com"
   },
   "source": {
-    "path": "MagnetMax/Core"
+    "path": "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax/Core"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": [
-    "MagnetMax/Core/**/*.{swift,h,m}",
-    "MagnetMax/Core/Private/Internal/**/*.{swift,h,m}"
+    "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax/Core/**/*.{swift,h,m}",
+    "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax/Core/Private/Internal/**/*.{swift,h,m}"
   ],
-  "public_header_files": "MagnetMax/Core/Public/*.h",
-  "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
+  "public_header_files": "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax/Core/Public/*.h",
+  "resources": "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
   "frameworks": [
     "Foundation",
     "UIKit",
