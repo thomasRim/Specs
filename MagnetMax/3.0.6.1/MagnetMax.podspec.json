@@ -31,6 +31,8 @@
     "MMX": [
       "~> 3.0.6"
     ],
-    "MagnetMaxCore": "/Users/vevdokimov/Projects/magnet/max-ios3"
+    "MagnetMaxCore": [
+     "~> 3.0.6.1"
+    ],
   }
 }
