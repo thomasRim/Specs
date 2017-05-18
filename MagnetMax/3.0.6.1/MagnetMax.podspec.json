@@ -10,14 +10,15 @@
     "Magnet Systems, Inc.": "info@magnet.com"
   },
   "source": {
-    "path": "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax"
+    "git": "git@github.com:magnetsystems/max-ios-3.0.git",
+    "branch" : "swiftToObjc"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax/*.{swift,h,m}",
-  "public_header_files": "/Users/vevdokimov/Projects/magnet/max-ios3/MagnetMax/*.h",
+  "source_files": "MagnetMax/*.{swift,h,m}",
+  "public_header_files": "MagnetMax/*.h",
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2",
     "ENABLE_BITCODE": "NO",
