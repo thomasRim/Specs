@@ -60,12 +60,11 @@
   "subspecs": [
     {
       "name": "Public",
-      "source_files": "MagnetMax/Core/Public/*.h"
+      "source_files": "MagnetMax/Core/Public/*.{h}"
     },
     {
       "name": "Private",
-      "source_files": "MagnetMax/Core/Private/*.{h,m,swift}",
-      "dependencies" : {"Public" : []}
+      "source_files": "MagnetMax/Core/Private/*.{h,m,swift}"
     }
   ],
   "libraries": "icucore"
