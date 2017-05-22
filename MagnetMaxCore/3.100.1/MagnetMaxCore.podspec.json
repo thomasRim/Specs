@@ -18,7 +18,7 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "MagnetMax/Core/**/*.{h,m,swift}"
+  "source_files": "MagnetMax/Core/**/*.{h,m,swift}",
   "public_header_files": "MagnetMax/Core/Public/*.h",
   "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
   "frameworks": [
