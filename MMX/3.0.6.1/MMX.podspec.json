@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "git@github.com:magnetsystems/message-ios-3.0.git",
-    "branch": "swiftToObjC"
+    "branch": "swiftToObjC_re306"
   },
   "platforms": {
     "ios": "8.0"
