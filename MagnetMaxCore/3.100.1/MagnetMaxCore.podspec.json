@@ -63,7 +63,7 @@
     },
     {
       "name": "Private",
-      "source_files": "MagnetMax/Core/Private/*.{h,m,swift}"
+      "source_files": "MagnetMax/Core/Private/**/*.{h,m,swift}"
     }
   ],
   "libraries": "icucore"
