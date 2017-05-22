@@ -1,6 +1,6 @@
 {
   "name": "MagnetMaxCore",
-  "version": "3.100.0",
+  "version": "3.100.1",
   "license": {
     "type": "Apache 2.0"
   },
@@ -17,10 +17,6 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": [
-    "MagnetMax/Core/**/*.{swift,h,m}",
-    "MagnetMax/Core/Private/Internal/**/*.{swift,h,m}"
-  ],
   "public_header_files": "MagnetMax/Core/Public/*.h",
   "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
   "frameworks": [
@@ -59,5 +55,15 @@
       "~> 1.5.2"
     ]
   },
-  "libraries": "icucore"
+  "libraries": "icucore",
+  "subspecs" : [
+    {
+      "name" : "Public",
+      "source_files" : "MagnetMax/Core/Public/*.h"
+    },
+    {
+      "name" : "Private",
+      "source_files" : "MagnetMax/Core/Private/*.{h,m,swift}"
+    }
+    ]
 }
