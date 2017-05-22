@@ -54,7 +54,9 @@
     ],
     "SAMKeychain": [
       "~> 1.5.2"
-    ]
+    ],
+    "Public":[],
+    "Private": []
   },
   "subspecs": [
     {
