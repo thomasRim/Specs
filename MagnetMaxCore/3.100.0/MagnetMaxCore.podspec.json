@@ -59,5 +59,15 @@
       "~> 1.5.2"
     ]
   },
-  "libraries": "icucore"
+  "libraries": "icucore",
+  "subspecs" : [
+    {
+      "name" : "Public",
+      "source_files" : "MagnetMax/Core/Public/*.h"
+    },
+    {
+      "name" : "Public",
+      "source_files" : "MagnetMax/Core/Private/*.{h,m,swift}"
+    }
+    ]
 }
