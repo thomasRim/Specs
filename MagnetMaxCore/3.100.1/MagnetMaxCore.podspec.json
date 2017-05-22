@@ -54,9 +54,7 @@
     ],
     "SAMKeychain": [
       "~> 1.5.2"
-    ],
-    "Public":[],
-    "Private": []
+    ]
   },
   "subspecs": [
     {
@@ -65,7 +63,7 @@
     },
     {
       "name": "Private",
-      "source_files": "MagnetMax/Core/Private/**/*.{h,m,swift}"
+      "source_files": "MagnetMax/Core/Private/**/*"
     }
   ],
   "libraries": "icucore"
