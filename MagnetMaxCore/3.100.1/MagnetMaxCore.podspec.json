@@ -11,7 +11,7 @@
   },
   "source": {
     "git": "git@github.com:magnetsystems/max-ios-3.0.git",
-    "branch" : "swiftToObjC_re306"
+    "branch": "swiftToObjC_re306"
   },
   "platforms": {
     "ios": "8.0"
@@ -53,17 +53,20 @@
     ],
     "SAMKeychain": [
       "~> 1.5.2"
-    ]
+    ],
+    "Public":[],
+    "Private":[]
   },
-  "libraries": "icucore",
-  "subspecs" : [
+  "subspecs": [
     {
-      "name" : "Public",
-      "source_files" : "MagnetMax/Core/Public/*.h"
+      "name": "Public",
+      "source_files": "MagnetMax/Core/Public/*.h"
     },
     {
-      "name" : "Private",
-      "source_files" : "MagnetMax/Core/Private/*.{h,m,swift}"
+      "name": "Private",
+      "source_files": "MagnetMax/Core/Private/*.{h,m,swift}",
+      "dependencies" : {"Public" : []}
     }
-    ]
+  ],
+  "libraries": "icucore"
 }
