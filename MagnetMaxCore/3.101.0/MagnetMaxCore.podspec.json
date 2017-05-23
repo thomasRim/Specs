@@ -29,11 +29,11 @@
   "subspecs" : [
     {
       "name": "Public",
-      "source_files": "MagnetMax/Core/Public/**/*"
+      "source_files": "MagnetMax/Core/Public/**/*.{h}"
     },
     {
       "name": "Private",
-      "source_files": "MagnetMax/Core/Private/**/*"
+      "source_files": "MagnetMax/Core/Private/**/*.{h,m,swift}"
     }
   ],
   "pod_target_xcconfig": {
