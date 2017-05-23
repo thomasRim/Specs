@@ -35,7 +35,7 @@
       "name": "Private",
       "source_files": "MagnetMax/Core/Private/**/*"
     }
-  ]
+  ],
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-ObjC -all_load",
     "ENABLE_BITCODE": "NO",
