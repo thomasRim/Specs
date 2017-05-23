@@ -9,25 +9,17 @@
   "authors": {
     "Magnet Systems, Inc.": "info@magnet.com"
   },
-  "source": {
-    "git": "git@github.com:magnetsystems/max-ios-3.0.git",
-    "branch" : "swiftToObjC_re306"
-  },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
-  "public_header_files": "MagnetMax/Core/Public/*.h",
+  "source": {
+    "git": "git@github.com:magnetsystems/max-ios-3.0.git",
+    "branch": "swiftToObjC_re306"
+  },
   "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
-  "frameworks": [
-    "Foundation",
-    "UIKit",
-    "CFNetwork",
-    "Security",
-    "CoreData",
-    "SystemConfiguration"
-  ],
-  "subspecs" : [
+  "public_header_files": "MagnetMax/Core/Public/**/*.{h}",
+  "subspecs": [
     {
       "name": "Public",
       "source_files": "MagnetMax/Core/Public/**/*.{h}",
@@ -37,6 +29,14 @@
       "name": "Private",
       "source_files": "MagnetMax/Core/Private/**/*.{h,m,swift}"
     }
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CFNetwork",
+    "Security",
+    "CoreData",
+    "SystemConfiguration"
   ],
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-ObjC -all_load",
