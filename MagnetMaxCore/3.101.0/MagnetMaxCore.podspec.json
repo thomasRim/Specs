@@ -17,11 +17,6 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": [
-    "MagnetMax/Core/**/*.{swift,h,m}",
-    "MagnetMax/Core/Private/Internal/**/*.{swift,h,m}"
-  ],
-  "public_header_files": "MagnetMax/Core/Public/*.h",
   "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
   "frameworks": [
     "Foundation",
@@ -31,6 +26,16 @@
     "CoreData",
     "SystemConfiguration"
   ],
+  "subspecs" : [
+    {
+      "name": "Public",
+      "source_files": "MagnetMax/Core/Public/**/*"
+    },
+    {
+      "name": "Private",
+      "source_files": "MagnetMax/Core/Private/**/*"
+    }
+  ]
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-ObjC -all_load",
     "ENABLE_BITCODE": "NO",
