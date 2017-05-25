@@ -19,6 +19,7 @@
   },
   "resources": "MagnetMax/Core/CoreData/MagnetMax.xcdatamodeld",
   "public_header_files": "MagnetMax/Core/*.h",
+  "source_files" : "MagnetMax/Core/**/*.{h,m,swift}",
   "frameworks": [
     "Foundation",
     "UIKit",
