@@ -15,21 +15,10 @@
   "requires_arc": true,
   "source": {
     "git": "git@github.com:magnetsystems/max-ios-3.0.git",
-    "branch": "swiftToObjC_re306"
+    "branch": "swiftToObjC_101"
   },
   "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
-  "public_header_files": "MagnetMax/Core/Public/**/*.{h}",
-  "subspecs": [
-    {
-      "name": "Public",
-      "source_files": "MagnetMax/Core/Public/**/*.{h}",
-      "piblic_header_files": "MagnetMax/Core/Public/**/*.{h}"
-    },
-    {
-      "name": "Private",
-      "source_files": "MagnetMax/Core/Private/**/*.{h,m,swift}"
-    }
-  ],
+  "public_header_files": "MagnetMax/Core/**/*.h",
   "frameworks": [
     "Foundation",
     "UIKit",
