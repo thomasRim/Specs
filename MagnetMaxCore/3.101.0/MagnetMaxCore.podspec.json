@@ -17,8 +17,8 @@
     "git": "git@github.com:magnetsystems/max-ios-3.0.git",
     "branch": "swiftToObjC_101"
   },
-  "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
-  "public_header_files": "MagnetMax/Core/**/*.h",
+  "resources": "MagnetMax/Core/CoreData/MagnetMax.xcdatamodeld",
+  "public_header_files": "MagnetMax/Core/*.h",
   "frameworks": [
     "Foundation",
     "UIKit",
