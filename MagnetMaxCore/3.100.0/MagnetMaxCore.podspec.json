@@ -21,7 +21,6 @@
     "MagnetMax/Core/**/*.{swift,h,m}",
     "MagnetMax/Core/Private/Internal/**/*.{swift,h,m}"
   ],
-  "public_header_files": "MagnetMax/Core/Public/*.h",
   "resources": "MagnetMax/Core/Private/CoreData/MagnetMax.xcdatamodeld",
   "frameworks": [
     "Foundation",
