@@ -17,6 +17,7 @@
     "ios": "8.0"
   },
   "requires_arc": true,
+  "public_headers" : "MagnetMax/Core/Public/**/*.{h}",
   "source_files": [
     "MagnetMax/Core/**/*.{swift,h,m}",
     "MagnetMax/Core/Private/Internal/**/*.{swift,h,m}"
