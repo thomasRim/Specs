@@ -20,7 +20,7 @@
   },
   "requires_arc": true,
   "source": {
-    "http": "https://github.com/thomasRim/testupload/raw/master/Core.tar.gz"
+    "http": "https://github.com/thomasRim/testupload/raw/master/PrometheanTVSDK-0.1.2.tar.gz"
   },
   "vendored_frameworks": [
     "Core/PrometheanTVSDK.framework"
