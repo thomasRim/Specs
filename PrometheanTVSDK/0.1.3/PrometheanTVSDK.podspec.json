@@ -2,8 +2,8 @@
   "name": "PrometheanTVSDK",
   "version": "0.1.3",
   "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+    "text": "Copyright 2017 PrometheanTV"
+    "type": "Copyright"
   },
   "summary": "'A short description of PTVSDK.",
   "description": "PrometheanTVPlayer player offers overlay presentation.",
