@@ -1,5 +1,5 @@
-﻿{
-  "name": "MagnetMaxCoreFramework",
+{
+  "name": "MagnetMaxCore_framework",
   "version": "3.0.6",
   "license": {
     "type": "Apache 2.0"
@@ -14,8 +14,9 @@
   },
   "requires_arc": true,
   "source": {
-    "git": "https://github.com/magnetsystems/MagnetMaxCoreFramework"
+    "path": "/Users/vevdokimov/Projects/magnet/MagnetMaxCoreFramework/"
   },
+  "source_files": "**",
   "frameworks": [
     "Foundation",
     "UIKit",
@@ -46,5 +47,5 @@
     "SAMKeychain": [
       "~> 1.5.2"
     ]
-  } 
+  }
 }
