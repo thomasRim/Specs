@@ -16,7 +16,7 @@
     "ios": "9.0"
   },
   "ios": {
-    "deployment_target": "9.0"
+    "deployment_target": "10.0"
   },
   "requires_arc": true,
   "source": {
