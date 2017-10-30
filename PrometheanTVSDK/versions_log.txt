@@ -1,0 +1,6 @@
+﻿0.1.3 - Loading Promethean as framework binary.
+	Firebase - '~>4.0.0'
+0.1.2 - Loading Promethean as framework binary.
+	Firebase - '3.17.0'
+0.1.1 - Loading Promethean as open-source pod. 
+	Firebase - '3.17.0'
