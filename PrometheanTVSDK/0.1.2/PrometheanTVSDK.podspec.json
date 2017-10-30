@@ -35,7 +35,6 @@
   "dependencies": {
     "Alamofire": ["~> 4.0"],
     "AlamofireObjectMapper": ["~> 4.0"],
-    "PromiseKit": ["~>4.2.0"],
     "SDWebImage": [],
     "Firebase/Core": ["3.17.0"],
     "Firebase/Database": ["3.17.0"],
