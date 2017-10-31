@@ -1,0 +1,45 @@
+{
+  "name": "PrometheanTVSDK",
+  "version": "0.2.1",
+  "license": {
+    "text": "Copyright 2017 PrometheanTV",
+    "type": "Copyright"
+  },
+  "summary": "'A short description of PTVSDK.",
+  "description": "PrometheanTVPlayer player offers overlay presentation.",
+  "homepage": "http://promethean.tv",
+  "authors": {
+    "Vladimir Yevdokimov": "vevdokimov@geeksforless.net",
+    "Victor Galaguza": "vgalaguza@geeksforless.net"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "deployment_target": "10.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "http": "https://github.com/thomasRim/testupload/raw/master/PrometheanTVSDK-0.2.1.tar.gz"
+  },
+  "vendored_frameworks": [
+    "Core/PrometheanTVSDK.framework"
+  ],
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/FirebaseCore/Frameworks ${PODS_ROOT}/FirebaseDatabase/Frameworks"
+  },
+  "frameworks": [
+    "FirebaseCore",
+    "FirebaseDatabase"
+  ],
+  "dependencies": {
+    "Alamofire": ["~> 4.0"],
+    "AlamofireObjectMapper": ["~> 4.0"],
+    "PromiseKit": ["~>4.2.0"],
+    "SDWebImage": [],
+    "Firebase/Core": ["~>4.0.0"],
+    "Firebase/Database": ["~>4.0.0"],
+    "KeenClient": []
+  },
+  "libraries": "sqlite3"
+}
