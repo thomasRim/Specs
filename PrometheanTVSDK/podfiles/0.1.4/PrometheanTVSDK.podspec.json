@@ -1,0 +1,59 @@
+{
+  "name": "PrometheanTVSDK",
+  "version": "0.2.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "'A short description of PTVSDK.",
+  "description": "PrometheanTVPlayer player offers overlay presentation.",
+  "homepage": "http://promethean.tv",
+  "authors": {
+    "Vladimir Yevdokimov": "vevdokimov@geeksforless.net",
+    "Victor Galaguza": "vgalaguza@geeksforless.net"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "deployment_target": "10.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "git@github.com:PrometheanTV/sdk-ios.git",
+    "branch": "develop"
+  },
+  "source_files": "PrometheanTVSDK/Classes/**/*",
+  "resources": [
+    "PrometheanTVSDK/Assets/YouTube/YTPlayerView-iframe-player.html",
+    "PrometheanTVSDK/Assets/Fonts/*.ttf",
+    "PrometheanTVSDK/Assets/Images/*.png",
+    "PrometheanTVSDK/Assets/Settings/*.plist"
+  ],
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/FirebaseCore/Frameworks ${PODS_ROOT}/FirebaseDatabase/Frameworks ${PODS_ROOT}/FirebaseAnalytics/Frameworks ${PODS_ROOT}/FirebaseInstanceID/Frameworks",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/Firebase/Core ${PODS_ROOT}/Firebase/Database"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
+  "frameworks": [
+    "FirebaseCore",
+    "FirebaseInstanceID",
+    "FirebaseAnalytics",
+    "FirebaseNanoPB",
+    "FirebaseDatabase",
+    "AdSupport"
+  ],
+  "dependencies": {
+    "Alamofire": ["4.4.0"],
+    "AlamofireObjectMapper": ["~>4.1.0"],
+    "PromiseKit": [],
+    "SDWebImage": [],
+    "CocoaLumberjack": [],
+    "Firebase/Core": ["~>4.3.0"],
+    "Firebase/Database": ["~>4.3.0"],
+    "KeenClient": []
+  },
+  "libraries": "sqlite3"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "PrometheanTVSDK",
+  "version": "0.1.1",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright PrometheanTV 2017"
+  },
+  "summary": "'A short description of PTVSDK.",
+  "description": "PrometheanTVPlayer player offers overlay presentation. Version for Swift 3.0.-3.1, Firebase 3.17.0",
+  "homepage": "http://promethean.tv",
+  "authors": {
+    "Vladimir Yevdokimov": "vevdokimov@geeksforless.net",
+    "Victor Galaguza": "vgalaguza@geeksforless.net"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "deployment_target": "10.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "git@github.com:PrometheanTV/sdk-ios.git",
+    "branch": "swift3.1_firebase3.17"
+  },
+  "source_files": "PrometheanTVSDK/Classes/**/*",
+  "resources": [
+    "PrometheanTVSDK/Assets/YouTube/YTPlayerView-iframe-player.html",
+    "PrometheanTVSDK/Assets/Fonts/*.ttf",
+    "PrometheanTVSDK/Assets/Images/*.png",
+    "PrometheanTVSDK/Assets/Settings/*.plist"
+  ],
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/FirebaseCore/Frameworks ${PODS_ROOT}/FirebaseDatabase/Frameworks",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/Firebase/Core ${PODS_ROOT}/Firebase/Database"
+  },
+  "frameworks": [
+    "FirebaseCore",
+    "FirebaseDatabase"
+  ],
+  "dependencies": {
+    "Alamofire": ["~> 4.0"],
+    "AlamofireObjectMapper": ["~> 4.0"],
+    "PromiseKit": ["~>4.2.0"],
+    "SDWebImage": [],
+    "CocoaLumberjack": [],
+    "Firebase/Core": ["3.17.0"],
+    "Firebase/Database": ["3.17.0"],
+    "KeenClient": []
+  },
+  "libraries": "sqlite3"
+}
