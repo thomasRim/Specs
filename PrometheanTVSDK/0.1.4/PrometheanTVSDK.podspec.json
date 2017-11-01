@@ -37,6 +37,7 @@
     "AlamofireObjectMapper": ["~> 4.0"],
     "PromiseKit": ["~>4.2.0"],
     "SDWebImage": [],
+    "CocoaLumberjack": [],
     "Firebase/Core": ["~>4.0.0"],
     "Firebase/Database": ["~>4.0.0"],
     "KeenClient": []
