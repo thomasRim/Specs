@@ -20,13 +20,16 @@
   },
   "requires_arc": true,
   "source": {
-    "http": "https://github.com/thomasRim/testupload/raw/master/PrometheanTVSDK-0.1.5.zip"
+    "http": "https://github.com/thomasRim/testupload/raw/master/PrometheanTVSDK-0.1.5.tar.gz"
   },
   "vendored_frameworks": [
     "Core/PrometheanTVSDK.framework"
   ],
-  "user_target_xcconfig": {
+  "pod_xcconfig": {
     "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/FirebaseCore/Frameworks ${PODS_ROOT}/FirebaseDatabase/Frameworks"
+  },
+  "user_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/Headers/Public/PrometheanTVSDK"
   },
   "frameworks": [
     "FirebaseCore",
