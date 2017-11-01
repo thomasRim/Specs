@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'PrometheanTVSDK' do
+  pod 'Alamofire', '~> 4.0'
+  pod 'AlamofireObjectMapper','~> 4.0'
+  pod 'PromiseKit/CorePromise','~>4.2.0'
+  pod 'SDWebImage', '4.1.2'
+  pod 'Firebase/Core', '~>4.0.0'
+  pod 'Firebase/Database','~>4.0.0'
+  pod 'KeenClient'
+end
