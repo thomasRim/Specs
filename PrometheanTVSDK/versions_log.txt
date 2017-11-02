@@ -1,13 +1,19 @@
-﻿0.2.1 - Promethean as framework binary.
+0.2.1 - Promethean as framework binary.
 	Firebase - '~>4.0.0'
 	Swift 3.2
 0.2.0 - Promethean as open-source pod.
 	Firebase - '~>4.0.0'
 	Swift 3.2
-0.1.6 - Promethean as framework binary.
-	Firebase - '~>4.0.0'
+0.1.7 - Promethean as framework binary
+	Json - Firebase - '~>4.0.0'
+	Lib - Firebase - '3.17.0'
 	Swift 3.0-3.1
 	qa server
+0.1.6 - Promethean as framework binary.
+	Json - Firebase - '~>4.0.0'
+	Lib - Firebase - '3.17.0' <- 0.1.5
+	Swift 3.0-3.1
+	customozation key PTV_SERVER_ENV_QA
 0.1.5 - Promethean as framework binary
 	Firebase - '3.17.0'
 	Swift 3.0-3.1
