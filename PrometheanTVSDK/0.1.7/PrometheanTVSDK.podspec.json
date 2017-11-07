@@ -37,8 +37,8 @@
     "AlamofireObjectMapper": ["~> 4.0"],
     "PromiseKit": ["~>4.2.0"],
     "SDWebImage": [],
-    "Firebase/Core": ["~>4.0.0"],
-    "Firebase/Database": ["~>4.0.0"],
+    "Firebase/Core": ["~>4.0"],
+    "Firebase/Database": ["~>4.0"],
     "KeenClient": []
   },
   "libraries": "sqlite3"
