@@ -25,8 +25,12 @@
   "vendored_frameworks": [
     "Core/PrometheanTVSDK.framework"
   ],
-  "user_target_xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/PrometheanTVSDK/PrometheanTVSDK.framework/Frameworks"
+  "resources": [
+    "Core/PrometheanTVSDK.framework/*.{plist,ttf,png,html}"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": ["-framework","\"PrometheanTVSDK\""],
+    "FRAMEWORK_SEARCH_PATHS": "$(SRCROOT)/Pods/PrometheanTVSDK/Core/PrometheanTVSDK.framework/Frameworks"
   },
   "libraries": "sqlite3"
 }
