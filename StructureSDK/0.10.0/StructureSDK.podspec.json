@@ -1,0 +1,28 @@
+{
+    "name": "StructureSDK",
+    "version": "0.10.0",
+    "license": "MIT",
+    "summary": "Separate lib for Structure Scanner API, framework and app integration",
+    "homepage": "http://orthogeniclab.com/",
+    "authors": {
+      "Orthogenic Inc": "orders@orthogeniclab.com"
+    },
+    "source": {
+      "git": "https://bitbucket.org/Orthogenic/structure-scanner-api.git",
+      "branch": "frameworks"
+    },
+    "platforms": {
+      "ios": "10.0"
+    },
+    "vendored_frameworks": "0.10.0/Structure.framework",
+    "frameworks": [
+        "Accelerate",
+        "AudioToolbox",
+        "AVFoundation",
+        "CoreMedia",
+        "CoreMotion",
+        "ExternalAccessory",
+        "GLKit",
+        "ImageIO"
+    ]
+  }
