@@ -19,10 +19,12 @@
         "Accelerate",
         "AudioToolbox",
         "AVFoundation",
+        "CoreGraphics",
         "CoreMedia",
         "CoreMotion",
         "ExternalAccessory",
         "GLKit",
-        "ImageIO"
+        "ImageIO",
+        "MessageUI"
     ]
   }
