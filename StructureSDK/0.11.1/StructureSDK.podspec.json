@@ -19,12 +19,22 @@
         "Accelerate",
         "AudioToolbox",
         "AVFoundation",
+        "CoreImage",
         "CoreGraphics",
         "CoreMedia",
         "CoreMotion",
+        "CoreVideo",
         "ExternalAccessory",
-        "GLKit",
+        "Foundation",
         "ImageIO",
-        "MessageUI"
+        "Metal",
+        "MetalPerformanceShaders",
+        "OpenGLES",
+        "QuartzCore",
+        "UIKit",
+        "VideoToolbox"
+    ],
+    "libraries": [
+      "z"
     ]
   }
