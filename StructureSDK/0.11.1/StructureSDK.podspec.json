@@ -35,6 +35,7 @@
         "VideoToolbox"
     ],
     "libraries": [
-      "z"
+      "z",
+      "c++"
     ]
   }
