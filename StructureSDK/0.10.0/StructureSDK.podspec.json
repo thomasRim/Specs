@@ -12,7 +12,7 @@
       "branch": "frameworks"
     },
     "platforms": {
-      "ios": "10.0"
+      "ios": "9.0"
     },
     "vendored_frameworks": "0.10.0/Structure.framework",
     "frameworks": [
