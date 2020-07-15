@@ -1,41 +1,38 @@
 {
-    "name": "StructureSDK",
-    "version": "0.11.2",
-    "license": "MIT",
-    "summary": "Separate lib for Structure Scanner API, framework and app integration",
-    "homepage": "http://orthogeniclab.com/",
-    "authors": {
-      "Orthogenic Inc": "orders@orthogeniclab.com"
-    },
-    "source": {
-      "git": "https://bitbucket.org/Orthogenic/structure-scanner-api.git",
-      "branch": "frameworks"
-    },
-    "platforms": {
-      "ios": "10.0"
-    },
-    "vendored_frameworks": "0.11.1/Structure.framework",
-    "frameworks": [
-        "Accelerate",
-        "AudioToolbox",
-        "AVFoundation",
-        "CoreImage",
-        "CoreGraphics",
-        "CoreMedia",
-        "CoreMotion",
-        "CoreVideo",
-        "Foundation",
-        "GLKit",
-        "ImageIO",
-        "Metal",
-        "MetalPerformanceShaders",
-        "OpenGLES",
-        "QuartzCore",
-        "UIKit",
-        "VideoToolbox"
-    ],
-    "libraries": [
-      "z",
-      "c++"
-    ]
-  }
+  "name": "StructureSDK",
+  "version": "0.11.2",
+  "license": "MIT",
+  "summary": "Separate lib for Structure Scanner API, framework and app integration",
+  "homepage": "http://orthogeniclab.com/",
+  "authors": {
+    "Orthogenic Inc": "orders@orthogeniclab.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/Orthogenic/structure-scanner-api.git",
+    "branch": "frameworks"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "0.11.2/Structure.framework",
+  "frameworks": [
+    "Accelerate",
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreImage",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreVideo",
+    "Foundation",
+    "GLKit",
+    "ImageIO",
+    "Metal",
+    "MetalPerformanceShaders",
+    "OpenGLES",
+    "QuartzCore",
+    "UIKit",
+    "VideoToolbox"
+  ],
+  "libraries": ["z", "c++"]
+}
